@@ -1,14 +1,14 @@
-# EAFITos 🎓
+# EAFITos 
 
 **EAFITos** es un sistema operativo educativo diseñado para aprender los fundamentos de la programación de sistemas y la operación interna de una shell utilizando el lenguaje C.
 
-## 🚀 Objetivos
+##  Objetivos
 - Entender la **gestión de procesos** y memoria.
 - Aprender sobre **hilos (threads)** y concurrencia.
 - Explorar el **sistema de archivos** y llamadas al sistema (syscalls).
 - Implementar **estructuras de datos básicas** usadas en kernels.
 
-## 🐚 La Shell de EAFITos
+##  La Shell de EAFITos
 El sistema inicia con una interfaz de línea de comandos (Shell) básica que permite interactuar con el sistema.
 
 ### ¿Qué son los Argumentos (`args`)?
@@ -35,11 +35,11 @@ Internamente en C, esto se maneja mediante un arreglo de cadenas (`char **args`)
 | `ayuda` | Ninguno | Muestra la lista de comandos disponibles. | `ayuda` |
 | `salir` | Ninguno | Termina la sesión de EAFITos. | `salir` |
 
-## 🛠️ Estructura del Proyecto
+##  Estructura del Proyecto
 - `/src`: Código fuente del proyecto (`main.c` contiene el loop principal).
 - `Makefile`: Script para automatizar la compilación.
 
-## ⚡ Cómo compilar y ejecutar
+##  Cómo compilar y ejecutar
 1. **Compilar**: Ejecuta `make` en la terminal.
    ```bash
    make
@@ -51,7 +51,7 @@ Internamente en C, esto se maneja mediante un arreglo de cadenas (`char **args`)
    ./build/sistema_os
    ```
 
-## 📚 Documentación
+##  Documentación
 
 El proyecto incluye un sistema de autodocumentación basado en **Doxygen**. Esto permite generar un sitio web técnico a partir de los comentarios explicativos en el código fuente.
 
